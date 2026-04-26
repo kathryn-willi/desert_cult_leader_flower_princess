@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Carsen’s Bachelorette Weekend -</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+
+<!-- PASSWORD PROTECTION OVERLAY -->
+<div id="passwordOverlay" class="password-overlay">
+    <div class="password-modal">
+        <h1 style="color: #8b6f47; margin-bottom: 20px;">🤠 Enter Password 🤠</h1>
+        <p style="color: #5c4033; margin-bottom: 20px;">This is an exclusive event. Please enter the password to access the details.</p>
+        <input type="password" id="mainPasswordInput" placeholder="Enter password..." style="padding: 12px; width: 100%; border: 2px solid #c08552; border-radius: 5px; font-size: 1em; margin-bottom: 15px;">
+        <button onclick="mainCheckPassword()" style="background: #c08552; color: white; padding: 12px 30px; border: none; border-radius: 5px; font-size: 1em; cursor: pointer; font-weight: bold; width: 100%; transition: background 0.3s ease;">Unlock</button>
+        <div id="mainErrorMessage" style="color: #c08552; margin-top: 10px; font-weight: bold; text-align: center;"></div>
+    </div>
+</div>
+
+<div class="container" id="mainContainer" style="display: none;">
+    <div class="header">
+        <h1>Carsen's Last Ride 🤠</h1>
+        <p>A Desert Cowgirl Bachelorette Weekend</p>
+        <div class="emoji-display">🌵 🐎 💍 🌙 ✨</div>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-button active" data-tab="welcome">Welcome</button>
+        <button class="tab-button" data-tab="staying">Where We're Staying</button>
+        <button class="tab-button" data-tab="itinerary">Itinerary</button>
+        <button class="tab-button" data-tab="packing">What to Bring</button>
+        <button class="tab-button" data-tab="blog">Learn More</button>
+    </div>
+
+    <!-- WELCOME TAB -->
+    <div id="welcome" class="tab-content active">
+        <div class="welcome-content">
+            <h2 class="anchored">Welcome, Cowgirls! 🌹</h2>
+            <p>You're invited to celebrate Carsen's last weekend of freedom in the magical desert town of Santa Fe, New Mexico!</p>
+
+            <div class="dates">
+                <p>April 30 – May 3, 2026</p>
+            </div>
+
+            <div class="location">
+                <p>📍 Santa Fe, New Mexico</p>
+                <p style="font-size: 0.95em; margin-top: 8px;">Art, Adobe &amp; Adventure await!</p>
+            </div>
+
+            <p>Get ready for art galleries, cowgirl nights out, surprise activities, wine tours, hot springs, hiking, and all the sass you can handle. This is her last ride before she takes his name, and we're making it unforgettable.</p>
+
+            <p style="font-size: 1.2em; font-weight: bold; color: #8b6f47;">Let's make some memories! 💕</p>
+
+            <h3 style="margin-top: 40px; text-align: center;" class="anchored">Who's Coming? 👯‍♀️</h3>
+            <div class="contact-list" style="max-width: 600px; margin: 20px auto;">
+                <div class="contact-item">
+                    <span class="contact-name">🎀 The Bride 🎀</span>
+                    <span class="contact-phone">Carsen</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Abby</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Katie</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Rachel</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Caitlin</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Claire</span>
+                    <span class="contact-phone">Washington DC</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Erin</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Jules</span>
+                    <span class="contact-phone">Fort Collins</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHERE WE'RE STAYING TAB -->
+    <div id="staying" class="tab-content">
+        <h2 class="anchored">Where Are We Staying? 🏠</h2>
+
+        <div class="house-info">
+            <h3 class="anchored">Our Santa Fe Casa 🏠</h3>
+            <div class="address">
+                907 Canyon Road<br>
+                Santa Fe, NM 87501
+            </div>
+
+            <div class="airbnb-link">
+                <p style="color: #5c4033; margin-bottom: 10px;">Book details:</p>
+                <a href="https://www.airbnb.com/rooms/21145871?unique_share_id=e55563da-a45e-426b-abba-b4f15370d117&amp;viralityEntryPoint=1&amp;s=76&amp;source_impression_id=p3_1777227185_P3Nce4y8zKBvmhvc" target="_blank">View on Airbnb →</a>
+            </div>
+
+            <div class="contact-list">
+                <h3 style="margin-top: 0;" class="anchored">Emergency Contacts</h3>
+                <div class="contact-item">
+                    <span class="contact-name">Abby</span>
+                    <span class="contact-phone">970-481-8440</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Katie</span>
+                    <span class="contact-phone">540-247-9221</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Rachel</span>
+                    <span class="contact-phone">970-829-9558</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Caitlin</span>
+                    <span class="contact-phone">952-261-7978</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Claire</span>
+                    <span class="contact-phone">573-450-0861</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Erin</span>
+                    <span class="contact-phone">970-402-0741</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">Jules</span>
+                    <span class="contact-phone">317-697-5408</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-name">The Bride (Carsen)</span>
+                    <span class="contact-phone">573-450-4419</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ITINERARY TAB -->
+    <div id="itinerary" class="tab-content">
+        <h2 class="anchored">The Schedule 🗓️</h2>
+
+        <!-- THURSDAY -->
+        <div class="day-section">
+            <div class="day-title">Thursday, April 30 · Ride Into Santa Fe 🚗</div>
+
+            <div class="activity">
+                <div class="activity-time">ARRIVAL</div>
+                <div class="activity-name">Meet at Gruet Winery</div>
+                <div class="activity-details">210 Don Gaspar Ave, Hotel St. Francis Santa Fe, NM 87501<br><a href="#" onclick="goToBlog('blog-wine'); return false;"><strong>Learn about Gruet &amp; NM wine →</strong></a></div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">MORNING</div>
+                <div class="activity-name">🛣️ Saddle Up &amp; Head Out</div>
+                <div class="activity-details">Morning departure, wide-open roads ahead</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">MIDDAY</div>
+                <div class="activity-name">🛒 Grocery Haul</div>
+                <div class="activity-details">Stock the homestead for the weekend</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">4:00 PM</div>
+                <div class="activity-name">🏠 Check In &amp; Get Settled</div>
+                <div class="activity-details">Settle in, pour something cold</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">EVENING</div>
+                <div class="activity-name">🌼 Make Your Own Flower Crown</div>
+                <div class="activity-details">Get creative, get festive! <a href="#" onclick="goToBlog('blog-beltane'); return false;"><strong>Learn about Beltane →</strong></a></div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">EVENING</div>
+                <div class="activity-name">🍽️ Dinner Out</div>
+                <div class="activity-details">TBD from the local guide</div>
+            </div>
+        </div>
+
+        <!-- FRIDAY -->
+        <div class="day-section">
+            <div class="day-title">Friday, May 1 · Art, Adobe &amp; Adventure 🎨</div>
+
+            <div class="activity">
+                <div class="activity-time">MORNING</div>
+                <div class="activity-name">☕ Breakfast at The Tea House</div>
+                <div class="activity-details">Just across the street from our casa</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">MORNING</div>
+                <div class="activity-name">🥾 Morning Hike</div>
+                <div class="activity-details">Choose your adventure! Bring swimsuit and hiking gear. <a href="#" onclick="goToBlog('blog-nature'); return false;"><strong>See trail options →</strong></a></div>
+            </div>
+
+            <div class="activity">
+                <div class="activity-time">AFTERNOON</div>
+                <div class="activity-name">🎨 Canyon Road &amp; The Plaza</div>
+                <div class="activity-details">Wander the galleries, explore the Plaza, visit the Georgia O'Keeffe Museum</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">EVENING</div>
+                <div class="activity-name">🌮 Dinner at The Shed</div>
+                <div class="activity-details">(505) 982-9030 · Check on reservations</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">NIGHT</div>
+                <div class="activity-name">🤠 Cowgirl Night Out at Cowgirl Santa Fe</div>
+                <div class="activity-details"><strong>Live music, boot-stomping &amp; all the sass</strong><br>
+                <strong>Dress Code:</strong> Sophisticated Cowgirl<br>
+                <a href="https://cowgirlsantafe.com" target="_blank">cowgirlsantafe.com →</a></div>
+            </div>
+        </div>
+
+        <!-- SATURDAY -->
+        <div class="day-section">
+            <div class="day-title">Saturday, May 2 · Surprise &amp; Sip 🍷</div>
+
+            <div class="activity">
+                <div class="activity-time">MORNING</div>
+                <div class="activity-name">✨ Surprise Activity ✨</div>
+                <div class="activity-details"><strong>You'll just have to wait and see...!</strong></div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">8:00 AM – 6:00 PM</div>
+                <div class="activity-name">🍷 Wine Tour</div>
+                <div class="activity-details"><strong>Dress Code:</strong> Desert Cult Leader Flower Princess<br>(Flower crowns will be provided!)<br><a href="#" onclick="goToBlog('blog-wine'); return false;"><strong>Learn about NM wine →</strong></a></div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">EVENING</div>
+                <div class="activity-name">🍕 Dinner</div>
+                <div class="activity-details">TBD — possibly a home-cooked night in</div>
+            </div>
+        </div>
+
+        <!-- SUNDAY -->
+        <div class="day-section">
+            <div class="day-title">Sunday, May 3 · Last Ride Home 🌙</div>
+
+            <div class="activity">
+                <div class="activity-time">MORNING</div>
+                <div class="activity-name">🍳 Breakfast</div>
+                <div class="activity-details">At the house or Tea House across the street</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">10:00 AM – 3:00 PM</div>
+                <div class="activity-name">🛍️ Railyard Artisan Market &amp; Farmer's Market</div>
+                <div class="activity-details">Last chance for turquoise and green chile</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">11:00 AM</div>
+                <div class="activity-name">🧳 Checkout</div>
+                <div class="activity-details">Pack up &amp; say goodbye to Santa Fe (for now)</div>
+            </div>
+            <div class="activity">
+                <div class="activity-time">OPTIONAL</div>
+                <div class="activity-name">🧖 Scenic Taos Route Home</div>
+                <div class="activity-details">Stop at Ojo Caliente Mineral Springs for a long soak &amp; a slow farewell to the desert</div>
+            </div>
+        </div>
+
+        <div class="notes">
+            <strong>💕 Here's to the last ride before she takes his name!</strong>
+        </div>
+    </div>
+
+    <!-- PACKING LIST TAB -->
+    <div id="packing" class="tab-content">
+        <h2 class="anchored">What to Bring 🎒</h2>
+
+        <!-- PASSWORD PROTECTED GIFT SECTION -->
+        <div id="beltaneOverlay" class="password-overlay" style="position: relative; background: none; margin-bottom: 30px; z-index: 10;">
+            <div class="password-modal" style="max-width: 600px; padding: 30px; margin: 0 auto;">
+                <h1 style="color: #8b6f47; margin-bottom: 20px;">✨ Desert Apothecary Gift Guide ✨</h1>
+                <p style="color: #5c4033; margin-bottom: 20px;">This section is password protected for the guests only.</p>
+                <input type="password" id="beltanePasswordInput" placeholder="Enter password..." style="padding: 12px; width: 100%; border: 2px solid #c08552; border-radius: 5px; font-size: 1em; margin-bottom: 15px;">
+                <button onclick="beltaneCheckPassword()" style="background: #c08552; color: white; padding: 12px 30px; border: none; border-radius: 5px; font-size: 1em; cursor: pointer; font-weight: bold; width: 100%; transition: background 0.3s ease;">Unlock</button>
+                <div id="beltaneErrorMessage" style="color: #c08552; margin-top: 10px; font-weight: bold; text-align: center;"></div>
+            </div>
+        </div>
+
+        <div id="beltaneContent" style="display: none; background: #fff9f3; padding: 25px; border-left: 4px solid #c08552; margin-bottom: 30px; border-radius: 3px;">
+            <h3 style="color: #8b6f47; margin-bottom: 15px;" class="anchored">🌿 Desert Apothecary Gift Theme 🌿</h3>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Instead of a lingerie gift party for the bride, we are doing a slightly different gift theme: <strong>Desert Apothecary!</strong></p>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Every guest brings something for the bride's body and soul from the natural world - locally made sage bundle, prickly pear body scrub, desert rose bath salts, turquoise face roller, pinon lotion, cactus hair oil...</p>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The idea is she leaves with a full ritualistic self-care collection rooted in the Southwest. She will be able to feel witchy and luxurious.</p>
+        </div>
+
+        <div class="notes">
+            <strong>Travel Days:</strong> Thursday and Sunday are travel days. Pack comfy clothes for the road!
+        </div>
+
+        <div class="packing-list">
+            <div class="packing-category">
+                <h4 class="anchored">🧳 Everyday Essentials</h4>
+                <ul>
+                    <li>Everyday clothing (jeans, shorts, t-shirts, sweater, underwear)</li>
+                    <li>Comfortable walking shoes</li>
+                    <li>Sunscreen &amp; sunglasses</li>
+                    <li>Toiletries &amp; medications</li>
+                    <li>Phone charger</li>
+                    <li>Comfortable travel outfit for Thursday &amp; Sunday</li>
+                </ul>
+            </div>
+            <div class="packing-category">
+                <h4 class="anchored">🥾 Hiking &amp; Hot Springs</h4>
+                <ul>
+                    <li>Swimsuit (essential!)</li>
+                    <li>Hiking boots or trail shoes</li>
+                    <li>Hiking clothes (moisture-wicking preferred)</li>
+                    <li>Backpack for hiking</li>
+                    <li>Water bottle</li>
+                    <li>Hat or visor for sun</li>
+                </ul>
+            </div>
+            <div class="packing-category">
+                <h4 class="anchored">🤠 Cowgirl Night Out (Friday)</h4>
+                <ul>
+                    <li>Cowgirl outfit (let your inner horse girl shine!)</li>
+                </ul>
+            </div>
+            <div class="packing-category">
+                <h4 class="anchored">👑 Desert Cult Leader Flower Princess (Saturday)</h4>
+                <ul>
+                    <li>Flowy, bohemian dress or outfit</li>
+                    <li>Flower crown materials will be provided!</li>
+                </ul>
+            </div>
+            <div class="packing-category">
+                <h4 class="anchored">☀️ Desert Weather Must-Haves</h4>
+                <ul>
+                    <li>High SPF sunscreen (Santa Fe is at 7,000 ft elevation!)</li>
+                    <li>Lip balm with SPF</li>
+                    <li>Sunglasses</li>
+                    <li>Hat or cap</li>
+                    <li>Light jacket or sweater (desert gets cool at night)</li>
+                    <li>Layers for temperature changes</li>
+                </ul>
+            </div>
+            <div class="packing-category">
+                <h4 class="anchored">📱 Don't Forget</h4>
+                <ul>
+                    <li>ID &amp; wallet</li>
+                    <li>Phone &amp; charger</li>
+                    <li>Camera (for photos!)</li>
+                    <li>Snacks &amp; any special dietary items</li>
+                    <li>Medications &amp; vitamins</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="notes">
+            <strong>Pro Tips:</strong>
+            <ul style="list-style: none; padding-left: 0; margin-top: 10px;">
+                <li>☀️ Santa Fe sits at 7,000 feet elevation - the sun is stronger!</li>
+                <li>🌡️ Desert temperatures can swing 20+ degrees between day &amp; night</li>
+                <li>💧 Stay hydrated in the dry desert air</li>
+                <li>👢 Comfortable walking shoes are a must for exploring galleries and the Plaza</li>
+                <li>📸 Bring items for photos - we're making memories!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- BLOG TAB -->
+    <div id="blog" class="tab-content">
+        <h2 class="anchored">Desert Magic &amp; History 🌙✨</h2>
+
+        <!-- WHERE TO EXPLORE NATURE -->
+        <div class="day-section" id="blog-nature">
+            <div class="day-title">🥾 Where to Explore Nature 🌲</div>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is your "choose your adventure" hike day. Pick a trail based on how far you want to drive and what kind of experience you're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, and sunscreen.</p>
+
+            <div class="hiking-options">
+                <h5 class="anchored">🥾 Spence Hot Springs</h5>
+                <p><strong>Duration:</strong> 1.5 hours drive</p>
+                <p><strong>Vibe:</strong> Riverside hot springs nestled along the Jemez River. A short trail leads to a series of natural rock pools fed by geothermal springs—warm, mineral-rich, and dreamy. Best for soaking and relaxing.</p>
+                <p><a href="https://www.alltrails.com/trail/us/new-mexico/spence-hot-springs-trail" target="_blank">View Trail Details →</a></p>
+            </div>
+            <div class="hiking-options">
+                <h5 class="anchored">🥾 McCauley Hot Springs</h5>
+                <p><strong>Duration:</strong> 1.5 hours drive</p>
+                <p><strong>Vibe:</strong> A 3.5-mile round-trip hike through pine forest to a series of warm pools. Slightly cooler temperatures than Spence (think bathwater warm), but the hike adds adventure and the pools are gorgeous.</p>
+                <p><a href="https://www.alltrails.com/trail/us/new-mexico/mccauley-hot-springs" target="_blank">View Trail Details →</a></p>
+            </div>
+            <div class="hiking-options">
+                <h5 class="anchored">🥾 Atalaya Mountain Trail</h5>
+                <p><strong>Duration:</strong> 15 minutes drive</p>
+                <p><strong>Vibe:</strong> A challenging 6-mile out-and-back to a 9,121-ft summit overlooking Santa Fe. Steep but rewarding panoramic views of the city and surrounding mountains. Best for those who want a real workout and a peak.</p>
+                <p><a href="https://www.alltrails.com/trail/us/new-mexico/atalaya-mountain-trail" target="_blank">View Trail Details →</a></p>
+            </div>
+            <div class="hiking-options">
+                <h5 class="anchored">🥾 Chamisa Trail Loop</h5>
+                <p><strong>Duration:</strong> 10 minutes drive</p>
+                <p><strong>Vibe:</strong> An easy-to-moderate 5-mile loop through the Santa Fe National Forest. Pinyon-juniper, ponderosa pine, scenic meadows. Perfect for stretching legs without committing the whole day.</p>
+                <p><a href="https://www.alltrails.com/trail/us/new-mexico/chamisa-trail-loop" target="_blank">View Trail Details →</a></p>
+            </div>
+
+            <div class="notes">
+                <strong>🌵 Choosing your trail:</strong> Want to soak? Spence. Want to soak + hike? McCauley. Want a peak? Atalaya. Want short and local? Chamisa. Check current conditions before you go—high desert weather changes fast.
+            </div>
+        </div>
+
+        <!-- SANTA FE CULTURE -->
+        <div class="day-section" id="blog-santafe">
+            <div class="day-title">✨ Santa Fe: Land of Enchantment</div>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Santa Fe, the "City of Holy Faith," sits at 7,000 feet in the heart of northern New Mexico, where Native American, Spanish colonial, and contemporary cultures weave together in a tapestry of art, spirituality, and bohemian charm.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🏛️ The Pueblo Style &amp; Adobe Architecture</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Santa Fe's distinctive Pueblo Revival architecture, with its earthy adobe walls and rounded corners, originated with the Pueblo people and was embraced by Spanish colonists in the 1600s. Every building in the historic downtown district must conform to these building codes—no glass and steel allowed. Walking Canyon Road feels like stepping through centuries of artistic tradition.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🎨 The Art Capital of the Southwest</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Santa Fe has more artists per capita than almost any other U.S. city. The legendary Canyon Road alone hosts over 100 galleries. From Native American jewelry and textiles to contemporary fine art, the city celebrates creativity in every plaza and alley. The Georgia O'Keeffe Museum honors the artist who fell in love with the New Mexico landscape and never left.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🌸 Spiritual &amp; Bohemian Energy</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Santa Fe is known as a vortex of creative energy and spiritual awakening. The mix of indigenous wisdom, Spanish Catholic traditions, and New Age spirituality creates a uniquely open, eclectic atmosphere. You'll find crystal shops next to ancient churches, yoga studios near centuries-old plazas, and everyone seems a little bit witchy.</p>
+        </div>
+
+        <!-- BELTANE -->
+        <div class="day-section" id="blog-beltane">
+            <div class="day-title">🔥 Beltane: The Festival of Fire &amp; Fertility 🔥</div>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We are arriving in Santa Fe on the exact date of <strong>Beltane</strong>—May 1st—one of the most sacred celebrations in the ancient Celtic calendar. This is not a coincidence.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">📖 What is Beltane?</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Beltane (pronounced BAL-tayn) marks the beginning of summer in the Celtic tradition, falling between the spring equinox and the summer solstice. The name means "bright fire" or "fire of Bel" (the Celtic sun god). Historically, it was a time of fertility rituals, communal bonfires, and the movement of livestock to summer pastures.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🔮 Beltane &amp; The Bride</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Beltane is profoundly connected to transformation, passage, and sacred union. It celebrates the liminal space between seasons—the threshold between maiden and woman, spring and summer, solitude and partnership. What could be more fitting for a bachelorette weekend? Carsen is at her own Beltane threshold, standing between her old life and the married woman she's about to become. The Desert Apothecary gift theme—with its ritualistic self-care and earth-based remedies—channels this ancient Celtic honoring of transition and sacred preparation.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🌄 Beltane Energies in the Desert</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">While Beltane originated in cool Celtic lands, the May 1st energy translates beautifully to the desert: renewal, fire, sexual energy, fertility, and the full awakening of the earth after winter. The Southwest's own traditions honor the sacred feminine, the power of the earth, and the life-giving properties of ritual. By celebrating in Santa Fe on Beltane, you're tapping into millennia of wisdom about honoring women, marking thresholds, and creating magic.</p>
+        </div>
+
+        <!-- WINE -->
+        <div class="day-section" id="blog-wine">
+            <div class="day-title">🍷 Wine of the Region: New Mexico's Secret Gem 🍷</div>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">New Mexico is the third-largest wine-producing state in the U.S., yet remains delightfully under-the-radar. The high desert terroir produces bold, distinctive wines with character.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🥂 Gruet: The Jewel of Santa Fe</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">You'll arrive on Thursday at <strong>Gruet Winery</strong>, one of New Mexico's premier producers. Gruet is internationally renowned for its <strong>sparkling wines and champagne-method bubbly</strong>. What started in 1984 as a small family operation has become the state's flagship sparkling wine producer. The high altitude (6,800 feet) and diurnal temperature swings create ideal conditions for crisp, elegant bubbles with excellent acidity—think classic Champagne-style finesse with a New Mexico soul.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🍇 The Terroir of High Desert Wines</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">New Mexico's wine regions sit between 4,000 and 7,000 feet elevation. The altitude means intense sun during the day but cool nights that slow ripening and build acidity. This produces wines with vibrant fruit and mineral character. Red varietals thrive here—Merlot, Cabernet Sauvignon, and Tempranillo show rich, structured profiles. But it's the whites and especially the sparkling wines that shine: crisp, elegant, and distinctive.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🌶️ The Spirit of New Mexico Wine</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Like Santa Fe itself, New Mexico wine embraces its own identity. You won't find pretentiousness here—just genuine, soulful wines made by people passionate about their terroir. The state wine is red, and many wineries blend in the local culture. It's a fitting libation for a bachelorette weekend that celebrates individuality and the magic of the land.</p>
+        </div>
+
+        <!-- DESERT BLOOMS -->
+        <div class="day-section" id="blog-blooms">
+            <div class="day-title">🌵 Desert Blooms: What to Expect in Early May 🌵</div>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We re-ran our satellite-based bloom model with the most recent data (NDVI through March 22, 2026; climate through April 25, 2026). Here's the latest forecast for what the Santa Fe desert will look like during your weekend:</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">📊 The Science of May Blooms</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We analyzed 11 years of MODIS satellite data (2015–2025) to predict what the desert will look like April 23 – May 8, 2026 (the 16-day composite covering your weekend). The model tracks landscape "greenness" (NDVI), driven by winter water-year precipitation and March–April temperatures—the strongest predictors of spring bloom intensity.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">✨ 2026 Spring Bloom Prediction (Updated)</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><strong>The headline: an unusually green landscape, but a modest wildflower flush.</strong></p>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The Santa Fe desert entered spring 2026 with a Jan–Feb baseline NDVI of <strong>0.357</strong>—higher than any year in the 11-year record (historical range 0.261–0.332). Predicted absolute NDVI for your weekend (April 23–May 8): <strong>~0.36</strong>, which would be the <strong>greenest the landscape has been at this time of year</strong> in the entire satellite record.</p>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">However, the <em>anomaly</em>—the new spring flush above the dormant baseline—is predicted to be <strong>below-average</strong> (around the 27th percentile). This means the wildflower carpet specifically will likely be modest, even though the overall landscape is exceptionally lush.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🌡️ Why the Mixed Signal?</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Three climate factors are driving this:</p>
+            <ul style="color: #5c4033; margin-left: 25px; margin-bottom: 15px;">
+                <li><strong>Winter precip:</strong> 154 mm Oct–Mar—moderate, slightly above the historical average</li>
+                <li><strong>Spring temperatures:</strong> 12.1°C average for Mar–April—the <strong>warmest in the 11-year record</strong> (next-warmest was 10.4°C in 2017). Warm springs accelerate green-up but can also dry out wildflower habitat.</li>
+                <li><strong>Jan–Mar precipitation:</strong> only 27 mm—quite dry, which limits the explosive wildflower flush that comes after wetter winters</li>
+            </ul>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The result: the pinyon-juniper and grass landscape is already loaded with green, but there isn't enough recent moisture to fuel a big surge of new wildflowers.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">📅 Peak Bloom Timing</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Predicted peak NDVI date: <strong>~May 15, 2026</strong> (DOY 135). That's about <strong>13 days AFTER your weekend</strong>—you'll be arriving slightly before the seasonal peak, with the landscape still on the upswing.</p>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><em>Caveat:</em> The peak-date model is the weakest part of the forecast (LOO R²=−0.13), so treat May 15 as a rough estimate with ±8 days of uncertainty.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">🌸 What You'll Actually See</h4>
+            <ul style="color: #5c4033; margin-left: 25px; margin-top: 10px;">
+                <li>🌲 <strong>Lush, fully green pinyon-juniper</strong> — the woodland backdrop will be the greenest in over a decade</li>
+                <li>💚 <strong>Grasslands greening up</strong> — recovering from winter dormancy, on the way to peak</li>
+                <li>🌼 <strong>Scattered wildflowers</strong> — present but not the carpet you'd see in a wet year (think pleasant accents, not Instagram-famous superbloom)</li>
+                <li>🌵 <strong>Cactus blooms</strong> — claret cup, prickly pear, and cholla often flower in early May regardless of moisture</li>
+                <li>🌞 <strong>Abundant warm sunshine</strong> — long days (sunset ~8 PM) and warmer-than-usual temperatures</li>
+                <li>💨 <strong>Dry conditions</strong> — possible fire restrictions; stay hydrated and check rules before any campfire ideas</li>
+            </ul>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">📸 Perfect for Photography &amp; Hiking</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Even with a modest wildflower flush, the overall landscape will look stunning—deep green pinyon, golden-to-green grasslands, and dramatic high-desert light. Your hikes to Atalaya Mountain, Chamisa Trail, or the hot springs will be beautiful. Long days mean sunset isn't until 8 PM—plenty of time for evening adventures. Cactus blooms and scattered wildflowers will reward those who look closely.</p>
+
+            <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;" class="anchored">⚠️ A Note on Elevation, UV &amp; Heat</h4>
+            <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">At 7,000 feet with the warmest spring on record, the sun will be intense. Bring high SPF sunscreen, a hat, sunglasses, and extra water—the desert is gorgeous, but the warmer-than-usual conditions mean you'll dehydrate faster than expected.</p>
+        </div>
+
+        <div class="notes" style="text-align: center; margin-top: 40px;">
+            <strong style="font-size: 1.2em;">🌙 You're arriving at the perfect time—spring's full magic, Beltane's sacred threshold, and wine to celebrate it all. ✨</strong>
+        </div>
+    </div>
+</div>
+
+<script>
+function mainCheckPassword() {
+    const password = document.getElementById('mainPasswordInput').value;
+    const errorMessage = document.getElementById('mainErrorMessage');
+    const container = document.getElementById('mainContainer');
+    const overlay = document.getElementById('passwordOverlay');
+
+    if (password === 'nopenises') {
+        overlay.style.display = 'none';
+        container.style.display = 'block';
+        errorMessage.textContent = '';
+    } else {
+        errorMessage.textContent = '❌ Incorrect password. Try again!';
+        document.getElementById('mainPasswordInput').value = '';
+    }
+}
+
+function beltaneCheckPassword() {
+    const password = document.getElementById('beltanePasswordInput').value;
+    const errorMessage = document.getElementById('beltaneErrorMessage');
+    const content = document.getElementById('beltaneContent');
+    const overlay = document.getElementById('beltaneOverlay');
+
+    if (password === 'beltane') {
+        overlay.style.display = 'none';
+        content.style.display = 'block';
+        errorMessage.textContent = '';
+    } else {
+        errorMessage.textContent = '❌ Incorrect password. Try again!';
+        document.getElementById('beltanePasswordInput').value = '';
+    }
+}
+
+document.getElementById('beltanePasswordInput').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        beltaneCheckPassword();
+    }
+});
+
+document.getElementById('mainPasswordInput').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        mainCheckPassword();
+    }
+});
+
+const tabButtons = document.querySelectorAll('.tab-button');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const tabName = button.getAttribute('data-tab');
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+        button.classList.add('active');
+        document.getElementById(tabName).classList.add('active');
+    });
+});
+
+function goToBlog(sectionId) {
+    tabButtons.forEach(btn => btn.classList.remove('active'));
+    tabContents.forEach(content => content.classList.remove('active'));
+    document.querySelector('[data-tab="blog"]').classList.add('active');
+    document.getElementById('blog').classList.add('active');
+    setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+}
+</script>
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+  tabsets.forEach(function(tabset) {
+    const tabby = new Tabby('#' + tabset.id);
+  });
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'light-border',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+
+
+
+</body></html>

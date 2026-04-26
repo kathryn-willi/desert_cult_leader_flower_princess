@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #d4a574 0%, #8b6f47 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #faf6f1;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    background: linear-gradient(135deg, #c08552 0%, #8b6f47 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    font-size: 1.1em;
+    opacity: 0.95;
+}
+
+.emoji {
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+.tabs {
+    display: flex;
+    background: #e8dcd4;
+    border-bottom: 3px solid #c08552;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    flex: 1;
+    min-width: 150px;
+    padding: 15px;
+    background: #e8dcd4;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #5c4033;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+    background: #ddd0c8;
+}
+
+.tab-button.active {
+    background: #faf6f1;
+    border-bottom-color: #c08552;
+    color: #8b6f47;
+}
+
+.tab-content {
+    display: none;
+    padding: 40px;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.welcome-content {
+    text-align: center;
+}
+
+.welcome-content h2 {
+    font-size: 2em;
+    color: #8b6f47;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.1em;
+    color: #5c4033;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.emoji-display {
+    font-size: 4em;
+    margin: 30px 0;
+    letter-spacing: 15px;
+}
+
+.dates {
+    background: #e8dcd4;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.dates p {
+    font-size: 1.3em;
+    color: #8b6f47;
+    font-weight: bold;
+}
+
+.location {
+    background: #d4a574;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.location p {
+    font-size: 1.1em;
+    color: white !important;
+}
+
+h2 {
+    color: #8b6f47;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c08552;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #c08552;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.day-section {
+    background: #f5ede5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #c08552;
+    border-radius: 5px;
+}
+
+.day-title {
+    font-size: 1.3em;
+    color: #8b6f47;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.activity {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.activity-time {
+    color: #c08552;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.activity-name {
+    color: #5c4033;
+    font-size: 1.05em;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.activity-details {
+    color: #666;
+    font-size: 0.95em;
+    margin-top: 5px;
+}
+
+.house-info {
+    background: #f5ede5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.house-info h3 {
+    color: #8b6f47;
+}
+
+.address {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #5c4033;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+.contact-list {
+    background: #f5ede5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-name {
+    font-weight: bold;
+    color: #5c4033;
+}
+
+.contact-phone {
+    color: #c08552;
+    font-family: 'Courier New', monospace;
+}
+
+.packing-list {
+    background: #f5ede5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.packing-category h4 {
+    color: #8b6f47;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.05em;
+}
+
+.packing-list ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.packing-list li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #5c4033;
+}
+
+.packing-list li:before {
+    content: "🤠";
+    position: absolute;
+    left: 0;
+}
+
+.hiking-options {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border-left: 4px solid #d4a574;
+}
+
+.hiking-options h5 {
+    color: #c08552;
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+.hiking-options p {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+.hiking-options a {
+    color: #c08552;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hiking-options a:hover {
+    text-decoration: underline;
+}
+
+.airbnb-link {
+    background: #e8dcd4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.airbnb-link a {
+    color: #c08552;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.airbnb-link a:hover {
+    text-decoration: underline;
+}
+
+.notes {
+    background: #fff9f3;
+    padding: 15px;
+    border-left: 4px solid #c08552;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.notes strong {
+    color: #8b6f47;
+}
+
+.password-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #d4a574 0%, #8b6f47 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.password-modal {
+    background: #faf6f1;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+}
+
+.password-modal h1 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.password-modal p {
+    text-align: center;
+    font-size: 1em;
+}
