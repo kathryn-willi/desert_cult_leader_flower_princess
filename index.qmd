@@ -220,7 +220,7 @@ Santa Fe, NM 87501
 <div class="activity">
 <div class="activity-time">MORNING</div>
 <div class="activity-name">🥾 Morning Nature Sesh</div>
-<div class="activity-details">Choose your adventure! Bring swimsuit and hiking gear. <a href="#" onclick="goToBlog('blog-nature'); return false;"><strong>See trail options →</strong></a></div>
+<div class="activity-details">Choose our adventure! Bring swimsuit and hiking gear. <a href="#" onclick="goToBlog('blog-nature'); return false;"><strong>See trail options →</strong></a></div>
 </div>
 
 <div class="activity">
@@ -404,7 +404,7 @@ Santa Fe, NM 87501
 <div class="day-section" id="blog-nature">
 <div class="day-title">🥾 Where to Explore Nature 🌲</div>
 <img src="my_images/hiking.png" alt="Santa Fe hiking" style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.15);">
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is your "choose your adventure" hike day. Pick a trail based on how far you want to drive and what kind of experience you're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, and sunscreen.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is our "choose our adventure" hike day. Pick a trail based on how far we want to drive and what kind of experience we're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, and sunscreen.</p>
 
 <div class="hiking-options">
 <h5>🥾 Spence Hot Springs</h5>
@@ -432,7 +432,7 @@ Santa Fe, NM 87501
 </div>
 
 <div class="notes">
-<strong>🌵 Choosing your trail:</strong> Want to soak? Spence. Want to soak + hike? McCauley. Want a peak? Atalaya. Want short and local? Chamisa. Check current conditions before you go—high desert weather changes fast.
+<strong>🌵 Choosing our trail:</strong> Want to soak? Spence. Want to soak + hike? McCauley. Want a peak? Atalaya. Want short and local? Chamisa. Check current conditions before you go—high desert weather changes fast.
 </div>
 </div>
 
@@ -511,7 +511,7 @@ Santa Fe, NM 87501
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Predicted peak NDVI date: <strong>~May 15, 2026</strong> (DOY 135). That's about <strong>13 days AFTER our weekend</strong>—you'll be arriving slightly before the seasonal peak, with the landscape still on the upswing.</p>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><em>Caveat:</em> The peak-date model is the weakest part of the forecast (LOO R²=−0.13), so treat May 15 as a rough estimate with ±8 days of uncertainty.</p>
 
-<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">🌸 What You'll Actually See</h4>
+<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">🌸 What We'll Actually See</h4>
 <ul style="color: #5c4033; margin-left: 25px; margin-top: 10px;">
 <li>🌲 <strong>Lush, fully green pinyon-juniper</strong> — the woodland backdrop will be the greenest in over a decade</li>
 <li>💚 <strong>Grasslands greening up</strong> — recovering from winter dormancy, on the way to peak</li>
@@ -522,7 +522,7 @@ Santa Fe, NM 87501
 </ul>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">📸 Perfect for Photography & Hiking</h4>
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Even with a modest wildflower flush, the overall landscape will look stunning—deep green pinyon, golden-to-green grasslands, and dramatic high-desert light. Your hikes to Atalaya Mountain, Chamisa Trail, or the hot springs will be beautiful. Long days mean sunset isn't until 8 PM—plenty of time for evening adventures. Cactus blooms and scattered wildflowers will reward those who look closely.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Even with a modest wildflower flush, the overall landscape will look stunning—deep green pinyon, golden-to-green grasslands, and dramatic high-desert light. Our hikes to Atalaya Mountain, Chamisa Trail, or the hot springs will be beautiful. Long days mean sunset isn't until 8 PM—plenty of time for evening adventures. Cactus blooms and scattered wildflowers will reward those who look closely.</p>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">⚠️ A Note on Elevation, UV & Heat</h4>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">At 7,000 feet with the warmest spring on record, the sun will be intense. Bring high SPF sunscreen, a hat, sunglasses, and extra water—the desert is gorgeous, but the warmer-than-usual conditions mean you'll dehydrate faster than expected.</p>
