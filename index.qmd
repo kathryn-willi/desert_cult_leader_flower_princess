@@ -34,6 +34,19 @@ page-layout: custom
 <!-- WELCOME TAB -->
 <div id="welcome" class="tab-content active">
 <div class="welcome-content">
+
+<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde6c3 100%); border: 2px solid #c08552; border-left: 6px solid #c08552; padding: 20px 25px; margin: 0 auto 30px; max-width: 700px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: left;">
+<h3 style="color: #8b5a2b; margin: 0 0 10px 0; font-family: 'Special Elite', 'Georgia', serif; letter-spacing: 1px;">⚠️ WEATHER ALERT ⚠️</h3>
+<p style="color: #5c4033; line-height: 1.7; margin-bottom: 10px;"><strong>The forecast for our weekend is rainy and chilly</strong> — not the typical Santa Fe sunshine! Current National Weather Service forecast:</p>
+<ul style="color: #5c4033; line-height: 1.7; margin: 10px 0 12px 25px;">
+<li><strong>Thursday Apr 30:</strong> 68°/45°, partly sunny with possible overnight showers (30%)</li>
+<li><strong>Friday May 1:</strong> 60°/39°, <strong style="color: #b85450;">rain &amp; possible thunderstorms (80–90%)</strong></li>
+<li><strong>Saturday May 2:</strong> 52°/35°, <strong style="color: #b85450;">rain &amp; thunderstorms (90%)</strong></li>
+<li><strong>Sunday May 3:</strong> 60°/39°, partly sunny with chance of showers (30%)</li>
+</ul>
+<p style="color: #5c4033; line-height: 1.7; margin: 0;"><strong>🌧️ Pack accordingly:</strong> umbrella, raincoat or waterproof shell, warm layers (fleece/sweater), waterproof shoes or boots, beanie, and a swap-in indoor outfit for the cold evenings.</p>
+</div>
+
 <img src="my_images/main photo.png" alt="Carsen's Bachelorette Weekend" style="width: 100%; max-width: 700px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 30px;">
 <h2>Welcome, Cowgirls! 🌹</h2>
 <p>You're invited to celebrate Carsen's last weekend of debauchery in the magical desert town of Santa Fe, New Mexico!</p>
@@ -220,7 +233,7 @@ Santa Fe, NM 87501
 <div class="activity">
 <div class="activity-time">MORNING</div>
 <div class="activity-name">🥾 Morning Nature Sesh</div>
-<div class="activity-details">Choose our adventure! Bring swimsuit and hiking gear. <a href="#" onclick="goToBlog('blog-nature'); return false;"><strong>See trail options →</strong></a></div>
+<div class="activity-details">Choose our adventure! <em>(weather permitting — see <a href="#welcome" onclick="document.querySelector('[data-tab=&quot;welcome&quot;]').click(); window.scrollTo({top: 0, behavior: 'smooth'}); return false;">forecast alert</a>)</em>. Bring swimsuit and hiking gear. <a href="#" onclick="goToBlog('blog-nature'); return false;"><strong>See trail options →</strong></a></div>
 </div>
 
 <div class="activity">
@@ -329,6 +342,7 @@ Santa Fe, NM 87501
 <ul>
 <li>Everyday clothing (jeans, shorts, t-shirts, sweater, underwear)</li>
 <li>Comfortable walking shoes</li>
+<li>Umbrella</li>
 <li>Sunscreen & sunglasses</li>
 <li>Toiletries & medications</li>
 <li>Phone charger</li>
@@ -338,6 +352,7 @@ Santa Fe, NM 87501
 <div class="packing-category">
 <h4>🥾 Hiking & Hot Springs</h4>
 <ul>
+<li>Rain gear</li>
 <li>Swimsuit (essential!)</li>
 <li>Hiking boots or trail shoes</li>
 <li>Hiking clothes (moisture-wicking preferred)</li>
@@ -404,7 +419,10 @@ Santa Fe, NM 87501
 <div class="day-section" id="blog-nature">
 <div class="day-title">🥾 Where to Explore Nature 🌲</div>
 <img src="my_images/hiking.png" alt="Santa Fe hiking" style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.15);">
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is our "choose our adventure" hike day. Pick a trail based on how far we want to drive and what kind of experience we're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, and sunscreen.</p>
+<div style="background: #fef3c7; border-left: 4px solid #c08552; padding: 12px 18px; margin-bottom: 18px; border-radius: 5px;">
+<p style="color: #5c4033; line-height: 1.6; margin: 0;"><strong>⚠️ Weather permitting:</strong> the current forecast shows rain &amp; thunderstorms Friday and Saturday. Have a backup indoor plan (Plaza, museums, Meow Wolf, Ten Thousand Waves) and check conditions the morning of.</p>
+</div>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is our "choose our adventure" hike day. Pick a trail based on how far we want to drive and what kind of experience we're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, sunscreen, <strong>and a rain shell given the forecast</strong>.</p>
 
 <div class="hiking-options">
 <h5>🥾 Spence Hot Springs</h5>
