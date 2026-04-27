@@ -529,7 +529,7 @@ Santa Fe, NM 87501
 </div>
 
 <div class="notes" style="text-align: center; margin-top: 40px;">
-<strong style="font-size: 1.2em;">🌙 You're arriving at the perfect time—spring's full magic, Beltane's sacred threshold, and wine to celebrate it all. ✨</strong>
+<strong style="font-size: 1.2em;">🌙 We're arriving at the perfect time—spring's full magick, Beltane's sacred threshold, and wine to celebrate it all. ✨</strong>
 </div>
 </div>
 
