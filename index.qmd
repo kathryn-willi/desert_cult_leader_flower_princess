@@ -24,7 +24,7 @@ page-layout: custom
 
 <div class="tabs">
 <button class="tab-button active" data-tab="welcome">Welcome</button>
-<button class="tab-button" data-tab="staying">Where We're Staying</button>
+<button class="tab-button" data-tab="staying">Casa & Contacts</button>
 <button class="tab-button" data-tab="itinerary">Itinerary</button>
 <button class="tab-button" data-tab="packing">What to Bring</button>
 <button class="tab-button" data-tab="blog">Learn More</button>
@@ -118,7 +118,7 @@ Santa Fe, NM 87501
 </div>
 
 <div class="contact-list">
-<h3 style="margin-top: 0;">Emergency Contacts</h3>
+<h3 style="margin-top: 0;">Contact Info</h3>
 <div class="contact-item">
 <span class="contact-name">Abby</span>
 <span class="contact-phone">970-481-8440</span>
@@ -276,7 +276,7 @@ Santa Fe, NM 87501
 <div class="activity">
 <div class="activity-time">OPTIONAL</div>
 <div class="activity-name">🏔️ Scenic Taos Route Home</div>
-<div class="activity-details">Stop at Ojo Caliente Mineral Springs for a long soak & a slow farewell to the desert</div>
+<div class="activity-details">Stop at <a href="https://ojosparesorts.com/ojo-caliente/" target="_blank"><strong>Ojo Caliente Mineral Springs</strong></a> for a long soak & a slow farewell to the desert</div>
 </div>
 </div>
 
