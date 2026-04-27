@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - my_images/
 
 website:
   title: "Carsen's Bachelorette Weekend"
