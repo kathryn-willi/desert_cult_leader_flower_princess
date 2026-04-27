@@ -7,7 +7,7 @@ page-layout: custom
 <!-- PASSWORD PROTECTION OVERLAY -->
 <div id="passwordOverlay" class="password-overlay">
 <div class="password-modal">
-<h1 style="color: #8b6f47; margin-bottom: 20px;">🤠 Enter Password 🤠</h1>
+<h1 style="color: #8b6f47; margin-bottom: 20px; white-space: nowrap;">🤠&nbsp;Enter Password&nbsp;🤠</h1>
 <p style="color: #5c4033; margin-bottom: 20px;">This is an exclusive event. Please enter the password to access the details.</p>
 <input type="password" id="mainPasswordInput" placeholder="Enter password..." style="padding: 12px; width: 100%; border: 2px solid #c08552; border-radius: 5px; font-size: 1em; margin-bottom: 15px;">
 <button onclick="mainCheckPassword()" style="background: #c08552; color: white; padding: 12px 30px; border: none; border-radius: 5px; font-size: 1em; cursor: pointer; font-weight: bold; width: 100%; transition: background 0.3s ease;">Unlock</button>
