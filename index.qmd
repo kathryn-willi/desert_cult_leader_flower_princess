@@ -493,7 +493,7 @@ Santa Fe, NM 87501
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">📊 The Science of May Blooms</h4>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We analyzed 11 years of MODIS satellite data (2015–2025) to predict what the desert will look like April 23 – May 8, 2026 (the 16-day composite covering our weekend). The model tracks landscape "greenness" (NDVI), driven by winter water-year precipitation and March–April temperatures—the strongest predictors of spring bloom intensity.</p>
 
-<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">✨ 2026 Spring Bloom Prediction </h4>
+<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">✨ 2026 Spring Bloom Prediction</h4>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><strong>The headline: an unusually green landscape, but a modest wildflower flush.</strong></p>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The Santa Fe desert entered spring 2026 with a Jan–Feb baseline NDVI of <strong>0.357</strong>—higher than any year in the 11-year record (historical range 0.261–0.332). Predicted absolute NDVI for our weekend (April 23–May 8): <strong>~0.36</strong>, which would be the <strong>greenest the landscape has been at this time of year</strong> in the entire satellite record.</p>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">However, the <em>anomaly</em>—the new spring flush above the dormant baseline—is predicted to be <strong>below-average</strong> (around the 27th percentile). This means the wildflower carpet specifically will likely be modest, even though the overall landscape is exceptionally lush.</p>
