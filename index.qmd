@@ -39,10 +39,10 @@ page-layout: custom
 <h3 style="color: #8b5a2b; margin: 0 0 10px 0; font-family: 'Special Elite', 'Georgia', serif; letter-spacing: 1px;">⚠️ WEATHER ALERT ⚠️</h3>
 <p style="color: #5c4033; line-height: 1.7; margin-bottom: 10px;"><strong>The forecast for our weekend is rainy and chilly</strong> — not the typical Santa Fe sunshine! Current National Weather Service forecast:</p>
 <ul style="color: #5c4033; line-height: 1.7; margin: 10px 0 12px 25px;">
-<li><strong>Thursday Apr 30:</strong> 68°/45°, partly sunny with possible overnight showers (30%)</li>
-<li><strong>Friday May 1:</strong> 60°/39°, <strong style="color: #b85450;">rain &amp; possible thunderstorms (80–90%)</strong></li>
-<li><strong>Saturday May 2:</strong> 52°/35°, <strong style="color: #b85450;">rain &amp; thunderstorms (90%)</strong></li>
-<li><strong>Sunday May 3:</strong> 60°/39°, partly sunny with chance of showers (30%)</li>
+<li><strong>Thursday Apr 30:</strong> 54°/39°, <strong style="color: #b85450;">rain (80%)</strong></li>
+<li><strong>Friday May 1:</strong> 47°/37°, <strong style="color: #b85450;">rain (75%)</strong></li>
+<li><strong>Saturday May 2:</strong> 56°/35°, mostly clear with slight chance of showers (20%)</li>
+<li><strong>Sunday May 3:</strong> 64°/40°, cloudy</li>
 </ul>
 <p style="color: #5c4033; line-height: 1.7; margin: 0;"><strong>🌧️ Pack accordingly:</strong> umbrella, raincoat or waterproof shell, warm layers (fleece/sweater), waterproof shoes or boots, beanie, and a swap-in indoor outfit for the cold evenings.</p>
 </div>
@@ -420,7 +420,7 @@ Santa Fe, NM 87501
 <div class="day-title">🥾 Where to Explore Nature 🌲</div>
 <img src="my_images/hiking.png" alt="Santa Fe hiking" style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.15);">
 <div style="background: #fef3c7; border-left: 4px solid #c08552; padding: 12px 18px; margin-bottom: 18px; border-radius: 5px;">
-<p style="color: #5c4033; line-height: 1.6; margin: 0;"><strong>⚠️ Weather permitting:</strong> the current forecast shows rain &amp; thunderstorms Friday and Saturday. Have a backup indoor plan (there is plenty to do!) and check conditions the morning of.</p>
+<p style="color: #5c4033; line-height: 1.6; margin: 0;"><strong>⚠️ Weather permitting:</strong> the current forecast shows rain Thursday and Friday (75–80% chance, highs in the upper 40s to mid 50s). Saturday clears up. Have a backup indoor plan (there is plenty to do!) and check conditions the morning of.</p>
 </div>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Friday morning is our "choose our adventure" hike day. Pick a trail based on how far we want to drive and what kind of experience we're after—a hot springs soak, a peak summit, or a quick local loop. Bring swimsuit, hiking shoes, water, sunscreen, <strong>and a rain shell given the forecast</strong>.</p>
 
