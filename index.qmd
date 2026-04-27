@@ -36,7 +36,7 @@ page-layout: custom
 <div class="welcome-content">
 <img src="my_images/main photo.png" alt="Carsen's Bachelorette Weekend" style="width: 100%; max-width: 700px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 30px;">
 <h2>Welcome, Cowgirls! 🌹</h2>
-<p>You're invited to celebrate Carsen's last weekend of freedom in the magical desert town of Santa Fe, New Mexico!</p>
+<p>You're invited to celebrate Carsen's last weekend of debauchery in the magical desert town of Santa Fe, New Mexico!</p>
 
 <div class="dates">
 <p>April 30 – May 3, 2026</p>
@@ -103,6 +103,12 @@ page-layout: custom
 <img src="my_images/house_kitchen.png" alt="Kitchen" style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.15);">
 </div>
 
+<div style="background: #faf6f1; border-left: 4px solid #c08552; padding: 20px 25px; margin: 20px 0; border-radius: 5px;">
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 12px;">This gated home, dating back to the 1700s, is located on Santa Fe's historic Canyon Road. Nestled into the foothills of the Sangre de Cristo Mountains, Canyon Road is a magical half-mile in the Historic District of Santa Fe. Since its early Native American and Spanish roots, Canyon Road has been a trail of abundance – initially as a farming community and later as the site of an art colony. Stroll along this picturesque trail to experience fine art, great shopping, and a delicious variety of excellent dining.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 12px;">While gracious adobe architecture gives Canyon Road its Old-World charm, diversity is its claim to fame. Whether you prefer Contemporary, Traditional, or Native American fine art, it's all here, including paintings, indoor and outdoor sculptures, glass, jewelry, clothing, accessories, home furnishings, gifts, antiques, rugs, folk art, and crafts.</p>
+<p style="color: #5c4033; line-height: 1.8; margin: 0; font-style: italic;">This home is an authentic adobe house and belongs to the artist whose work you'll see throughout.</p>
+</div>
+
 <div class="address">
 907 Canyon Road<br>
 Santa Fe, NM 87501
@@ -166,6 +172,9 @@ Santa Fe, NM 87501
 <!-- ITINERARY TAB -->
 <div id="itinerary" class="tab-content">
 <h2>The Schedule 🗓️</h2>
+<div style="text-align: center; margin-bottom: 25px;">
+<a href="itinerary-one-pager.pdf" download style="display: inline-block; background: linear-gradient(135deg, #c08552 0%, #8b6f47 100%); color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1em; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">📄 Download Itinerary PDF</a>
+</div>
 <img src="my_images/carsen.png" alt="Carsen" style="width: 100%; max-width: 700px; display: block; margin: 0 auto 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
 
 <!-- THURSDAY -->
@@ -239,11 +248,11 @@ Santa Fe, NM 87501
 
 <div class="activity">
 <div class="activity-time">MORNING</div>
-<div class="activity-name">✨ Surprise Activity ✨</div>
+<div class="activity-name">✨ 8 AM Surprise Activity✨</div>
 <div class="activity-details"><strong>You'll just have to wait and see...!</strong></div>
 </div>
 <div class="activity">
-<div class="activity-time">8:00 AM – 6:00 PM</div>
+<div class="activity-time">10:00 AM – 6:00 PM</div>
 <div class="activity-name">🍷 Wine Tour</div>
 <div class="activity-details"><strong>Dress Code:</strong> Desert Cult Leader Flower Princess<br>(Flower crowns will be provided!)<br><a href="#" onclick="goToBlog('blog-wine'); return false;"><strong>Learn about NM wine →</strong></a></div>
 </div>
@@ -281,7 +290,7 @@ Santa Fe, NM 87501
 </div>
 
 <div class="notes">
-<strong>💕 Here's to the last ride before she takes his name!</strong>
+<strong>💕 Here's to the last ride she becomes a Hot Cross Bahn!</strong>
 </div>
 </div>
 
@@ -389,7 +398,7 @@ Santa Fe, NM 87501
 
 <!-- BLOG TAB -->
 <div id="blog" class="tab-content">
-<h2>Desert Magic & History 🌙✨</h2>
+<h2>Desert Magick & History 🌙✨</h2>
 
 <!-- WHERE TO EXPLORE NATURE -->
 <div class="day-section" id="blog-nature">
@@ -477,14 +486,14 @@ Santa Fe, NM 87501
 <!-- DESERT BLOOMS -->
 <div class="day-section" id="blog-blooms">
 <div class="day-title">🌵 Desert Blooms: What to Expect in Early May 🌵</div>
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We re-ran our satellite-based bloom model with the most recent data (NDVI through March 22, 2026; climate through April 25, 2026). Here's the latest forecast for what the Santa Fe desert will look like during your weekend:</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We re-ran our satellite-based bloom model with the most recent data (NDVI through March 22, 2026; climate through April 25, 2026). Here's the latest forecast for what the Santa Fe desert will look like during our weekend:</p>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">📊 The Science of May Blooms</h4>
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We analyzed 11 years of MODIS satellite data (2015–2025) to predict what the desert will look like April 23 – May 8, 2026 (the 16-day composite covering your weekend). The model tracks landscape "greenness" (NDVI), driven by winter water-year precipitation and March–April temperatures—the strongest predictors of spring bloom intensity.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">We analyzed 11 years of MODIS satellite data (2015–2025) to predict what the desert will look like April 23 – May 8, 2026 (the 16-day composite covering our weekend). The model tracks landscape "greenness" (NDVI), driven by winter water-year precipitation and March–April temperatures—the strongest predictors of spring bloom intensity.</p>
 
-<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">✨ 2026 Spring Bloom Prediction (Updated)</h4>
+<h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">✨ 2026 Spring Bloom Prediction (/h4>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><strong>The headline: an unusually green landscape, but a modest wildflower flush.</strong></p>
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The Santa Fe desert entered spring 2026 with a Jan–Feb baseline NDVI of <strong>0.357</strong>—higher than any year in the 11-year record (historical range 0.261–0.332). Predicted absolute NDVI for your weekend (April 23–May 8): <strong>~0.36</strong>, which would be the <strong>greenest the landscape has been at this time of year</strong> in the entire satellite record.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The Santa Fe desert entered spring 2026 with a Jan–Feb baseline NDVI of <strong>0.357</strong>—higher than any year in the 11-year record (historical range 0.261–0.332). Predicted absolute NDVI for our weekend (April 23–May 8): <strong>~0.36</strong>, which would be the <strong>greenest the landscape has been at this time of year</strong> in the entire satellite record.</p>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">However, the <em>anomaly</em>—the new spring flush above the dormant baseline—is predicted to be <strong>below-average</strong> (around the 27th percentile). This means the wildflower carpet specifically will likely be modest, even though the overall landscape is exceptionally lush.</p>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">🌡️ Why the Mixed Signal?</h4>
@@ -497,7 +506,7 @@ Santa Fe, NM 87501
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">The result: the pinyon-juniper and grass landscape is already loaded with green, but there isn't enough recent moisture to fuel a big surge of new wildflowers.</p>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">📅 Peak Bloom Timing</h4>
-<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Predicted peak NDVI date: <strong>~May 15, 2026</strong> (DOY 135). That's about <strong>13 days AFTER your weekend</strong>—you'll be arriving slightly before the seasonal peak, with the landscape still on the upswing.</p>
+<p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;">Predicted peak NDVI date: <strong>~May 15, 2026</strong> (DOY 135). That's about <strong>13 days AFTER our weekend</strong>—you'll be arriving slightly before the seasonal peak, with the landscape still on the upswing.</p>
 <p style="color: #5c4033; line-height: 1.8; margin-bottom: 15px;"><em>Caveat:</em> The peak-date model is the weakest part of the forecast (LOO R²=−0.13), so treat May 15 as a rough estimate with ±8 days of uncertainty.</p>
 
 <h4 style="color: #c08552; margin-top: 20px; margin-bottom: 10px;">🌸 What You'll Actually See</h4>
